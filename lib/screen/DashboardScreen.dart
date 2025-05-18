@@ -77,14 +77,27 @@ class _DashboardScreenState extends State<DashboardScreen> {
             ),
           ),
           if(isCategorizing) Positioned.fill(
-            child: Container(
-              color: Colors.black.withAlpha(170),
-              child: Center(
-                child: Row(
-                  children: [
-                    CircularProgressIndicator(),
-                    Text("Categorizing...")
-                  ],
+            child: Center(
+              child: Container(
+                color: Colors.black.withAlpha(170),
+                child: Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20),
+                  child: Center(
+                    child: Container(
+                      color: Colors.white,
+                      child: Padding(
+                        padding: EdgeInsets.all(5),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            CircularProgressIndicator(),
+                            SizedBox(width: 10,),
+                            Text("Categorizing...")
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ),

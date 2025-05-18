@@ -20,12 +20,12 @@ class _SetupScreen2State extends State<SetupScreen2> {
   };
 
   final Map<String, String> serviceLogos = {
-    'Maybank': 'assets/logos/maybank.png',
-    'CIMB': 'assets/logos/cimb.png',
-    'RHB': 'assets/logos/rhb.png',
-    'Public Bank': 'assets/logos/publicbank.png',
-    'TnG eWallet': 'assets/logos/tng.png',
-    'ShopeePay': 'assets/logos/shopeepay.png',
+    'Maybank': 'assets/maybank.png',
+    'CIMB': 'assets/cimb.png',
+    'RHB': 'assets/rhb.png',
+    'Public Bank': 'assets/publicbank.png',
+    'TnG eWallet': 'assets/tng.png',
+    'ShopeePay': 'assets/shopeepay.png',
   };
 
   void _showServiceLinkDialog() {
